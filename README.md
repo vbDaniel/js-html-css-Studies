@@ -114,17 +114,23 @@ Não usa nenhum espaço e nem mostra nada.
 
 `display: flex;`
 
+Linha/Coluna como base de layout, faz possível  o uso do conceito de flex box
+
+
+####Flex Box layout: 
+
+`flex-start` / `start`: ítens alinhados com o início do container. O valor (com maior suporte dos navegadores) flex-start se guia pela flex-direction, enquanto start se guia pela direção do writing-mode.
+`flex-end` / `end`: ítens alinhados com o final do container. O valor (com maior suporte dos navegadores) flex-end se guia pela flex-direction, enquanto end se guia pela direção do writing-mode.
+`center`: ítens centralizados no container.
+`space-between`: ítens distribuídos igualmente; a primeira linha junto ao início do container e a última linha junto ao final do container.
+`space-around`: ítens distribuídos igualmente com o mesmo espaçamento entre cada linha.
+`space-evenly`: ítens distribuídos igualmente com o mesmo espaçamento entre eles.
+`stretch` (padrão): ítens em cada linha esticam para ocupar o espaço remanescente entre elas.
+
+
 
 
 `display: grid;`
-
-
-
-
-
-
-
-
 
 
 
