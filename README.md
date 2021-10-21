@@ -82,3 +82,39 @@ Rowspan —> Mescla linhas
   <img width="996" alt="Screen Shot 2021-10-21 at 10 19 17" src="https://user-images.githubusercontent.com/87997848/138285916-6e9203e6-de7a-4f56-8e25-d2685f18374e.png">
 
 Pode se ver o padrao estrutural de um elemento apartir da imagem a cima.
+
+DICA STYLES: 
+```CSS
+header img
+{
+border: 1px xolid #808080;
+border-radius: 4px; // Arredonda a Borda
+}
+```
+Se almentar exponencialmente  o px de  border-radius forma-se um círculo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
