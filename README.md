@@ -94,15 +94,29 @@ border-radius: 4px; // Arredonda a Borda
 Se almentar exponencialmente  o px de  border-radius forma-se um círculo.
 
 
+###Types of display
+
+`display: block;`
+
+Usa todo o espaço horizontal disponível, ou seja usatodo o espaço  horizontal da tela, a não  ser que tenha uma fixed position.
+
+`display: inline;`
+
+Usa a largura do elemento para permitir que o item compartilhe a mesma linha.
+ 
+`display: hidden;`
+
+Usa o espaço  do elemento porém  ele não  é mostrado. Espaço  em branco.
+
+`display: none;`
+
+Não usa nenhum espaço e nem mostra nada.
+
+`display: flex;`
 
 
 
-
-
-
-
-
-
+`display: grid;`
 
 
 
