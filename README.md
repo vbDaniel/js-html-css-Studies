@@ -120,20 +120,39 @@ Linha/Coluna como base de layout, faz possível  o uso do conceito de flex box
 ####Flex Box layout: 
 
 `flex-start` / `start`: ítens alinhados com o início do container. O valor (com maior suporte dos navegadores) flex-start se guia pela flex-direction, enquanto start se guia pela direção do writing-mode.
-`flex-end` / `end`: ítens alinhados com o final do container. O valor (com maior suporte dos navegadores) flex-end se guia pela flex-direction, enquanto end se guia pela direção do writing-mode.
-`center`: ítens centralizados no container.
-`space-between`: ítens distribuídos igualmente; a primeira linha junto ao início do container e a última linha junto ao final do container.
-`space-around`: ítens distribuídos igualmente com o mesmo espaçamento entre cada linha.
-`space-evenly`: ítens distribuídos igualmente com o mesmo espaçamento entre eles.
-`stretch` (padrão): ítens em cada linha esticam para ocupar o espaço remanescente entre elas.
+     - `flex-end` / `end`: ítens alinhados com o final do container. O valor (com maior suporte dos navegadores) flex-end se guia pela flex-direction, enquanto end se guia pela direção do writing-mode.
+
+    - `center`: ítens centralizados no container.
+
+    - `space-between`: ítens distribuídos igualmente; a primeira linha junto ao início do container e a última linha junto ao final do container.
+
+    - `space-around`: ítens distribuídos igualmente com o mesmo espaçamento entre cada linha.
+
+    - `space-evenly`: ítens distribuídos igualmente com o mesmo espaçamento entre eles.
+
+    - `stretch` (padrão): ítens em cada linha esticam para ocupar o espaço remanescente entre elas.
 
 
-
-
-`display: grid;`
-
-
-
+- `display: grid;`: atua em containers apenas.
+Além de que é necessário  nomear os elementos com `grid-area: nomeElemento`, por exemplo:
+```CSS
+header{
+   ...;
+   ...;
+   grid-area:header;
+}
+```
+Assim possibilita aplicar:
+```CSS
+.container{
+  display: grid;
+  grid-template-areas:
+     "header header"
+     "main aside"
+     "footer footer
+  grid-template-columns: auto 200px //mantem ser o maior possível  no caso especificado sempre ser 200px
+  grid-gap: 8px // deixa uma margem/ brecha entre os elementos.
+}
 
 
 
