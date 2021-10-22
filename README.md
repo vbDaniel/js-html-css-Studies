@@ -174,5 +174,63 @@ function showMessage(message){
  document.writeln("<p>" + message + "</p>");
  }
  ```
+** PORÉM EXISTE UM FORMA MELHOR USANDO DOM  **
+
+------------------------------------------
+
+## THE DOM (Document Object Model)
+
+- window. document: Global Objects
+- document.body and document.head: find those elements
+- documents.getElementById(): Encotra o elemento apartir da ID
+- documents. getElementsByClassName(): Enconta os elementos pelo nome da classe.
+
+```JavaScript
+funcitio showMessage(message){
+ const formInfo = documents.getELementsById("fomrInfo");
+ formInfo.innerHTML = "<p> + message + "</p>;
+}
+```
+
+### APLICAR EVENTOS
+
+Em um elemento: 
+
+```JavaScript
+const contactForm = document.getElementById("contactForm");
+contactForm,addEventListener("submit", function (event){ 
+   event.preventDefault();
+   showMessage("Sending your message...");
+});
+```
+
+Em varios elementos de um class (just like a array)
+
+const experiences = documents.getElementsByClassName("experience");
+for ( let i = 0; i < experiences.length; i++){
+  const item = experiences[i];
+  item.addEventListener("mouseenter", function (event){
+  event.target.style = "background-color: #999999";
+});
+
+item.addEventListener("mouseleave", function (event){
+  event.target.style = "background-color: #10f000";
+});
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
