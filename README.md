@@ -153,7 +153,7 @@ Assim possibilita aplicar:
   grid-template-columns: auto 200px //mantem ser o maior possível  no caso especificado sempre ser 200px
   grid-gap: 8px // deixa uma margem/ brecha entre os elementos.
 }
-
+```
 ------------------------------------------
 
 ##JavaScript
