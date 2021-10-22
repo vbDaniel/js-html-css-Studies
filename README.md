@@ -206,6 +206,8 @@ contactForm,addEventListener("submit", function (event){
 
 Em varios elementos de um class (just like a array)
 
+
+```JavaScript
 const experiences = documents.getElementsByClassName("experience");
 for ( let i = 0; i < experiences.length; i++){
   const item = experiences[i];
