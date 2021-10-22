@@ -154,6 +154,25 @@ Assim possibilita aplicar:
   grid-gap: 8px // deixa uma margem/ brecha entre os elementos.
 }
 
+------------------------------------------
 
+##JavaScript
+
+Existe 3 formas de se criar um codigo Script de forma que unifique com o HTML e o CSS.
+
+- in Line <script> ... </script> que é feito diretamente no index.html.
+
+- document que é linkar um documento index.js ao html. Para linkar:
+
+```HTML
+<script> scr= "index.js"> ...</script>
+```
+A melhor forma de se trabalhar com ambos são  os usos de funções, como por exemplo para mostrar uma mensagem pulo de linha pode se fazer uma função com html incluso:
+
+```JavaScript  
+function showMessage(message){
+ document.writeln("<p>" + message + "</p>");
+ }
+ ```
 
 
