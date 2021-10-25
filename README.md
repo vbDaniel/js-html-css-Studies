@@ -225,6 +225,54 @@ item.addEventListener("mouseleave", function (event){
 
 ### Classes: 
 
+Na classe pode-se usar como avanco de object que aceite métodos e funções 
+
+```JavaScript
+class Contact{
+
+    constructor(form){
+        this.fullname = form.elements["fullname"].value;
+        this.email = form.elements["email"].value;
+        this.subject = form.elements["subject"].value;
+        this.body = form.elements["body"].value;
+    }
+
+
+    fullname = "";
+    email = "";
+    subject = "";
+    body = "";
+
+    send(){
+        console.info(this.formatMessage());
+        showMessage("We're note seend emails to day");
+    }
+    formatMessage(){
+    return `To: ${this.fullName}`
+            Email: ${this.email}
+            Subject: ${this.subject}
+            Body: ${this.body}`;
+    }
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
