@@ -256,6 +256,11 @@ class Contact{
 }
 ```
 
+The problem with Browser:
+
+Existem uma grande variedade  de browsers, e nem todos ele suportam certas ferramentas. Pode-se verificar se aquela ferramenta é validade em uma maioria de navegadores no site "Can i use", que irá gerar uma porcentagem de quantos usuários e qual versão  de browser tem acesso a tal ferramenta.
+
+
 
 
 
